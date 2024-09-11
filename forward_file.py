@@ -2,8 +2,8 @@ from telethon import TelegramClient, events, Button
 
 api_id = '26565183'  # Replace with your API ID
 api_hash = '7e614e5421ac7d81f15ba180763a55b7'  # Replace with your API Hash
-source_channel = '@dourcwsb'  # Source channel to listen for new messages
-target_channel = '@tagdhshd'  # Target channel to forward the file
+source_channel = '@Sodere_Tube'  # Source channel to listen for new messages
+target_channel = '@SODERE_FILM_ET'  # Target channel to forward the file
 
 client = TelegramClient('session_name', api_id, api_hash)
 
