@@ -7,11 +7,14 @@ load_dotenv()
 
 api_id = os.getenv('API_ID')
 api_hash = os.getenv('API_HASH')
-session_file = os.getenv('SESSION_FILE')  # Path to your session file
+session_file = os.getenv('SESSION_FILE')  # Ensure this matches your session file
 source_channel = '@Sodere_Tube'
 target_channel = '@SODERE_FILM_ET'
 
 client = TelegramClient(session_file, api_id, api_hash)
+
+# Define your event handlers here
+
 
 # Variable to keep track of counters
 button_counters = {
