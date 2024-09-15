@@ -1,7 +1,9 @@
+import os
+from dotenv import load_dotenv
 from telethon import TelegramClient, events, Button
 
-api_id = '26565183'  # Replace with your API ID
-api_hash = '7e614e5421ac7d81f15ba180763a55b7'  # Replace with your API Hash
+api_id = os.getenv('API_ID')
+api_hash = os.getenv('API_HASH')
 source_channel = '@Sodere_Tube'  # Source channel to listen for new messages
 target_channel = '@SODERE_FILM_ET'  # Target channel to forward the file
 
